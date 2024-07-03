@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.ws.MYECLIPSE_JERSEY_CORE"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.ws.MYECLIPSE_JERSEY_JAXB"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.ws.MYECLIPSE_JERSEY_CLIENT"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.ws.MYECLIPSE_JERSEY_JSON"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.ws.MYECLIPSE_JERSEY_ATOM"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.ws.MYECLIPSE_JERSEY_MAIL"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_EM"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_CORE"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.hibernate.MYECLIPSE_HIBERNATE3_3_EXTRAS"/>
+	<classpathentry kind="lib" path="WebRoot/jars/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/jutils-2.3.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/httpclient-4.5.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/httpcore-4.4.10.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/httpmime-4.2.5.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/json-simple.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Sun JDK 1.6.0_13"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

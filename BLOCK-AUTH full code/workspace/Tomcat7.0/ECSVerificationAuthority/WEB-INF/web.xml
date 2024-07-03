@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+  	<display-name>JAX-RS REST Servlet</display-name>
+  	<servlet-name>JAX-RS REST Servlet</servlet-name>
+  	<servlet-class>
+  		com.sun.jersey.spi.container.servlet.ServletContainer
+  	</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>controller.Admin</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResultQR</servlet-name>
+    <servlet-class>controller.ResultQR</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QRAdmin</servlet-name>
+    <servlet-class>controller.QRAdmin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QrData</servlet-name>
+    <servlet-class>controller.QrData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeeDocs</servlet-name>
+    <servlet-class>controller.SeeDocs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QrCode</servlet-name>
+    <servlet-class>controller.QrCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IssueDocs</servlet-name>
+    <servlet-class>controller.IssueDocs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>facecompare</servlet-name>
+    <servlet-class>controller.facecompare</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FaceVerify</servlet-name>
+    <servlet-class>controller.FaceVerify</servlet-class>
+  </servlet>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+  	<servlet-name>JAX-RS REST Servlet</servlet-name>
+  	<url-pattern>/rest/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>ResultQR</servlet-name>
+    <url-pattern>/ResultQR</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QRAdmin</servlet-name>
+    <url-pattern>/QRAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QrData</servlet-name>
+    <url-pattern>/QrData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeeDocs</servlet-name>
+    <url-pattern>/SeeDocs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QrCode</servlet-name>
+    <url-pattern>/QrCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IssueDocs</servlet-name>
+    <url-pattern>/IssueDocs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>facecompare</servlet-name>
+    <url-pattern>/facecompare</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FaceVerify</servlet-name>
+    <url-pattern>/FaceVerify</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

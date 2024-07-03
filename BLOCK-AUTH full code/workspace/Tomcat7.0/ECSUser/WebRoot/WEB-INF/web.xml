@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadCertificates</servlet-name>
+    <servlet-class>controller.UploadCertificates</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PanCard</servlet-name>
+    <servlet-class>controller.PanCard</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Identity</servlet-name>
+    <servlet-class>controller.Identity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QrRequest</servlet-name>
+    <servlet-class>controller.QrRequest</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet>
+  	<display-name>JAX-RS REST Servlet</display-name>
+  	<servlet-name>JAX-RS REST Servlet</servlet-name>
+  	<servlet-class>
+  		com.sun.jersey.spi.container.servlet.ServletContainer
+  	</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplyForProofs</servlet-name>
+    <servlet-class>controller.ApplyForProofs</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Aadhar</servlet-name>
+    <servlet-class>controller.Aadhar</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+  	<servlet-name>JAX-RS REST Servlet</servlet-name>
+  	<url-pattern>/services/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadCertificates</servlet-name>
+    <url-pattern>/UploadCertificates</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PanCard</servlet-name>
+    <url-pattern>/PanCard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Identity</servlet-name>
+    <url-pattern>/Identity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QrRequest</servlet-name>
+    <url-pattern>/QrRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyForProofs</servlet-name>
+    <url-pattern>/ApplyForProofs</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Aadhar</servlet-name>
+    <url-pattern>/Aadhar</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
